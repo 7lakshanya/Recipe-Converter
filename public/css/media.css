@@ -1,0 +1,96 @@
+@media screen and (max-width: 1250px){
+  /*put buttons on opposite ends
+  less than 1250px
+  */
+  #submitbtn{
+    background-color: #F58F7C;
+    right:100px;
+  }
+  .rsbtm{
+    right: 40px;
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 1150px){
+  /*change look of website, tablet optimized*/
+  .lsbtm{
+    display: none;
+  }
+  .txtimg{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 35%;
+    display: block;
+    margin: auto;
+  }
+  .lfbtm{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    width: 20%;
+    z-index: 1;
+  }
+  .rfbtm{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    width: 12%;
+    z-index: 1;
+  }
+  .textareastyle{
+    margin-top: 50px;
+  }
+  .recipe-parent{
+    position:static;
+    width: 70%;
+    margin: auto;
+  }
+  .form-group{
+    position: relative;
+  }
+  .spacer{
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  /*mobile optimized */
+  .txtimg{
+    width: 50%;
+  }
+  .rsbtm{
+    width: 25%;
+  }
+  .lfbtm{
+    display: none;
+  }
+  .rfbtm{
+    display: none;
+  }
+  .textareastyle{
+    margin-top: 0px;
+  }
+  .style-box{
+    width: 40%;
+  }
+  #number{
+    left:40px;
+  }
+  #submitbtn{
+    right:40px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  /*optimized for iphones*/
+  a #gobackbtn{
+    left:50px;
+  }
+  #number{
+    left:0px;
+  }
+  #submitbtn{
+    right:0px;
+  }
+}

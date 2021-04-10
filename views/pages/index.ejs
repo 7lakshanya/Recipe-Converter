@@ -1,0 +1,20 @@
+<%- include("../partials/header"); -%>
+    <div id="fds">
+      <img src="images/text.png" class="txtimg" alt="instruction to paste your recipe in the text box">
+      <img src="images/mixer.png" class="bottomleftimg lfbtm" alt="mixer">
+      <img src="images/spoons.png" class="spoonsimg rfbtm" alt="spoons">
+      <form action="/newrecipe" method="post" onsubmit="submitRecipe()">
+        <div class="recipe-parent">
+          <div class="form-group">
+            <textarea placeholder="paste your recipe here" class="form-control textareastyle animate" id="recipe" rows="19"></textarea>
+            <input  autocomplete="off" min="2" type="number" id="number" class="style-box" value="" placeholder="Divide by?" required>
+            <button type="submit" id="submitbtn" class="style-box sb">Calculate</button>
+            <textarea name="resultvalue" id="resultval" class="invisible" value=""></textarea>
+          </div>
+        </div>
+        </form>
+        <div class="spacer"></div>
+        </div>
+      <script src="/js/index.js"></script>
+    </body>
+    </html>
